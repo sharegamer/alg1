@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Outcast",
+            "request": "launch",
+            "mainClass": "Outcast",
+            "projectName": "wordnet_82244c1b",
+            "args": "synsets.txt hypernyms.txt outcast5.txt outcast8.txt outcast11.txt"
+        },
+        {
+            "type": "java",
+            "name": "WordNetTest",
+            "request": "launch",
+            "mainClass": "WordNetTest",
+            "projectName": "wordnet_82244c1b"
+        },
+        {
+            "type": "java",
+            "name": "SAP",
+            "request": "launch",
+            "mainClass": "SAP",
+            "projectName": "wordnet_82244c1b",
+            "args": "digraph1.txt"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "digraph1.txt"
+        }
+    ]
+}

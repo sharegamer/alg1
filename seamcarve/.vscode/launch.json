@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SeamCarver",
+            "request": "launch",
+            "mainClass": "SeamCarver",
+            "projectName": "seamcarve_b5d9160d",
+            "args": "logo.png"
+        },
+        {
+            "type": "java",
+            "name": "PrintSeams",
+            "request": "launch",
+            "mainClass": "PrintSeams",
+            "projectName": "seamcarve_b5d9160d",
+            "args": "3x4.png"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "3x4.png"
+        }
+    ]
+}
